@@ -15,6 +15,8 @@
 		8D01A65C1E94B48B000C7D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D01A65A1E94B48B000C7D1A /* LaunchScreen.storyboard */; };
 		8D01A6671E94B48C000C7D1A /* FGChangeIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D01A6661E94B48C000C7D1A /* FGChangeIconTests.m */; };
 		8D01A6721E94B48C000C7D1A /* FGChangeIconUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D01A6711E94B48C000C7D1A /* FGChangeIconUITests.m */; };
+		8D01A6871E94C847000C7D1A /* icontwo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D01A6851E94C847000C7D1A /* icontwo@2x.png */; };
+		8D01A6881E94C847000C7D1A /* icontwo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D01A6861E94C847000C7D1A /* icontwo@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		8D01A66D1E94B48C000C7D1A /* FGChangeIconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FGChangeIconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D01A6711E94B48C000C7D1A /* FGChangeIconUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGChangeIconUITests.m; sourceTree = "<group>"; };
 		8D01A6731E94B48C000C7D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D01A6851E94C847000C7D1A /* icontwo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icontwo@2x.png"; sourceTree = "<group>"; };
+		8D01A6861E94C847000C7D1A /* icontwo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icontwo@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		8D01A64B1E94B48B000C7D1A /* FGChangeIcon */ = {
 			isa = PBXGroup;
 			children = (
+				8D01A6841E94C847000C7D1A /* icontwo */,
 				8D01A64F1E94B48B000C7D1A /* AppDelegate.h */,
 				8D01A6501E94B48B000C7D1A /* AppDelegate.m */,
 				8D01A6521E94B48B000C7D1A /* ViewController.h */,
@@ -138,6 +143,15 @@
 				8D01A6731E94B48C000C7D1A /* Info.plist */,
 			);
 			path = FGChangeIconUITests;
+			sourceTree = "<group>";
+		};
+		8D01A6841E94C847000C7D1A /* icontwo */ = {
+			isa = PBXGroup;
+			children = (
+				8D01A6851E94C847000C7D1A /* icontwo@2x.png */,
+				8D01A6861E94C847000C7D1A /* icontwo@3x.png */,
+			);
+			path = icontwo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D01A65C1E94B48B000C7D1A /* LaunchScreen.storyboard in Resources */,
+				8D01A6881E94C847000C7D1A /* icontwo@3x.png in Resources */,
 				8D01A6591E94B48B000C7D1A /* Assets.xcassets in Resources */,
+				8D01A6871E94C847000C7D1A /* icontwo@2x.png in Resources */,
 				8D01A6571E94B48B000C7D1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +534,7 @@
 				8D01A6781E94B48C000C7D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D01A6791E94B48C000C7D1A /* Build configuration list for PBXNativeTarget "FGChangeIconTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +543,7 @@
 				8D01A67B1E94B48C000C7D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D01A67C1E94B48C000C7D1A /* Build configuration list for PBXNativeTarget "FGChangeIconUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +552,7 @@
 				8D01A67E1E94B48C000C7D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

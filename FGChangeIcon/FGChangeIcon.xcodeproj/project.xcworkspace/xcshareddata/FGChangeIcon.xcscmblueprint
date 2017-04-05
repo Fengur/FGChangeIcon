@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "66EEEA645866C87C1D72699054A5A38D50D6AF13",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "68C9A309DEC10D558CBAFA84FA55193F2D544C63" : 9223372036854775807,
+    "66EEEA645866C87C1D72699054A5A38D50D6AF13" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B21ABE26-17BF-4E01-982E-614F8202FF7B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "68C9A309DEC10D558CBAFA84FA55193F2D544C63" : "",
+    "66EEEA645866C87C1D72699054A5A38D50D6AF13" : "FGChangeIcon\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FGChangeIcon",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FGChangeIcon\/FGChangeIcon.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Fengur\/FGChangeIcon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "66EEEA645866C87C1D72699054A5A38D50D6AF13"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Fengur\/SwiftPassValue.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "68C9A309DEC10D558CBAFA84FA55193F2D544C63"
+    }
+  ]
+}
